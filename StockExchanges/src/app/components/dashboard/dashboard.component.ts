@@ -5,13 +5,12 @@ import { Router } from '@angular/router';
 import { Helpers } from '../../helpers/helpers';
 
 @Component({
-
-    selector: 'account-balance',
-    templateUrl: './account-balance.component.html',
-    styleUrls: [ './account-balance.component.css' ]
+  selector: 'dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: [ './dashboard.component.css' ]
 })
 
-export class AccountBalanceComponent implements OnInit {
+export class DashboardComponent implements OnInit {
 
   constructor(private router: Router, private helpers: Helpers) { }
 
